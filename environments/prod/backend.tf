@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "admin-297212-tfstate"
+    bucket = "neon-nexus-297211-tfstate-prod"
     prefix = "env/prod"
   }
 }
