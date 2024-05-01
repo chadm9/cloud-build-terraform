@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "neon-nexus-297211-tfstate"
     prefix = "env/dev"
   }
 }
