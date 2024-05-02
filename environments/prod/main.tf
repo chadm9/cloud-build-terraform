@@ -17,12 +17,8 @@ locals {
   env = "prod"
 }
 
-provider "google" {
-  project = "${var.project}"
-}
-
-module "vpc" {
-  source  = "../../modules/vpc"
-  project = "${var.project}"
-  env     = "${local.env}"
-}
+#module "vpc" {
+#  source  = "../../modules/vpc"
+#  project = "${var.project}"
+#  env     = "${local.env}"
+#}
